@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="EdtDefault" parent="Widget.AppCompat.EditText">
+        <item name="android:imeOptions">actionDone</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:inputType">textPersonName</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="EdtBorderWhite" parent="EdtDefault">
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/edt_white_border</item>
+    </style>
+    <style name="EdtBorderGray" parent="EdtDefault">
+        <item name="android:textColorHint">@color/separator</item>
+        <item name="android:textColor">@color/fontDesc</item>
+        <item name="android:background">@drawable/edt_gray_border</item>
+    </style>
+</resources>

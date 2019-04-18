@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TxtDefault" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">14dp</item>
+    </style>
+    <style name="TxtWhite" parent="TxtDefault">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="TxtTitle" parent="TxtDefault">
+        <item name="android:textColor">@color/fontTitle</item>
+    </style>
+    <style name="TxtDesc" parent="TxtDefault">
+        <item name="android:textColor">@color/fontDesc</item>
+    </style>
+    <style name="TxtBlue" parent="TxtDefault">
+        <item name="android:textColor">@color/lightBlue</item>
+    </style>
+
+
+    <style name="TxtSmall" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">12dp</item>
+    </style>
+    <style name="TxtWhiteSmall" parent="TxtSmall">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="TxtTitleSmall" parent="TxtSmall">
+        <item name="android:textColor">@color/fontTitle</item>
+    </style>
+    <style name="TxtDescSmall" parent="TxtSmall">
+        <item name="android:textColor">@color/fontDesc</item>
+    </style>
+    <style name="TxtBlueSmall" parent="TxtSmall">
+        <item name="android:textColor">@color/lightBlue</item>
+    </style>
+
+    <style name="TxtMedium" parent="TxtDefault">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="TxtMediumWhite" parent="TxtMedium">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="TxtMediumTitle" parent="TxtMedium">
+        <item name="android:textColor">@color/fontTitle</item>
+    </style>
+    <style name="TxtMediumDesc" parent="TxtMedium">
+        <item name="android:textColor">@color/fontDesc</item>
+    </style>
+    <style name="TxtMediumBlue" parent="TxtMedium">
+        <item name="android:textColor">@color/lightBlue</item>
+    </style>
+
+    <style name="TxtMediumWhiteBold" parent="TxtMediumWhite">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TxtMediumTitleBold" parent="TxtMediumTitle">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TxtMediumDescBold" parent="TxtMediumDesc">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TxtMediumBlueBold" parent="TxtMediumBlue">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TxtMediumWhiteItalic" parent="TxtMediumWhite">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="TxtMediumTitleItalic" parent="TxtMediumTitle">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="TxtMediumDescItalic" parent="TxtMediumDesc">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="TxtMediumBlueItalic" parent="TxtMediumBlue">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="TxtBig" parent="TxtDefault">
+        <item name="android:textSize">32dp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="TxtBigWhite" parent="TxtBig">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="TxtBigTitle" parent="TxtBig">
+        <item name="android:textColor">@color/fontTitle</item>
+    </style>
+    <style name="TxtBigDesc" parent="TxtBig">
+        <item name="android:textColor">@color/fontDesc</item>
+    </style>
+    <style name="TxtBigBlue" parent="TxtBig">
+        <item name="android:textColor">@color/lightBlue</item>
+    </style>
+
+    <style name="TxtBigWhiteBold" parent="TxtBigWhite">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TxtBigTitleBold" parent="TxtBigTitle">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TxtBigDescBold" parent="TxtBigDesc">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TxtBigBlueBold" parent="TxtBigBlue">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TxtBigWhiteItalic" parent="TxtBigWhite">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="TxtBigTitleItalic" parent="TxtBigTitle">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="TxtBigDescItalic" parent="TxtBigDesc">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="TxtBigBlueItalic" parent="TxtBigBlue">
+        <item name="android:textStyle">italic</item>
+    </style>
+</resources>

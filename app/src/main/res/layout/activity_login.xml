@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightBlue"
+    android:gravity="center"
+    android:padding="30dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:srcCompat="@mipmap/ic_welcome_logo"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/image_title_login" />
+
+    <EditText
+        android:id="@+id/editText"
+        style="@style/EdtBorderWhite"
+        android:hint="@string/hint_username" />
+
+    <EditText
+        android:id="@+id/editText2"
+        style="@style/EdtBorderWhite"
+        android:hint="@string/hint_password" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_text"
+        style="@style/BtnBorderWhite" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/or"
+        style="@style/TxtMediumWhiteBold"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_facebook"
+        android:drawablePadding="-40dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:paddingStart="40dp"
+        android:singleLine="true"
+        android:drawableStart="@mipmap/ic_welcome_fb_login"
+        style="@style/BtnBorderWhite"
+        tools:ignore="RtlSymmetry" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/asa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/registration_suggestion"
+            android:textAlignment="center"
+            style="@style/TxtWhite"
+            android:layout_margin="20dp"/>
+        <Button
+            android:id="@+id/buttonaxa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/registration_text"
+            android:padding="0dp"
+            android:layout_marginStart="-25dip"
+            android:textAllCaps="false"
+            android:onClick="onClickRegisterButton"
+            style="@style/BtnWhite"/>
+    </LinearLayout>
+
+
+</LinearLayout>

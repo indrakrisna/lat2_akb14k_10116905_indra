@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Tugas2</string>
+    <string name="title_activity_register">Register</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <!--Login-->
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="image_title_login">Image Login</string>
+    <string name="login_text">Login</string>
+    <string name="or">OR</string>
+    <string name="login_facebook">Connect With Facebook</string>
+    <string name="registration_suggestion">doesn\'t have account ?</string>
+    <string name="registration_text">Register</string>
+</resources>

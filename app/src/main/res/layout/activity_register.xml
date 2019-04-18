@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editText3"
+            style="@style/EdtBorderGray"
+            android:hint="Username" />
+
+        <EditText
+            android:id="@+id/editText4"
+            style="@style/EdtBorderGray"
+            android:hint="Email" />
+
+        <EditText
+            android:id="@+id/editText5"
+            style="@style/EdtBorderGray"
+            android:hint="Phone Number" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButto12n"
+                style="@style/RbtDefault"
+                android:text="Male" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                style="@style/RbtDefault"
+                android:text="Female" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/bloodtype"
+                style="@style/SpnDefault"
+                android:layout_weight="1"
+                android:layout_marginEnd="20dp"/>
+
+            <Spinner
+                android:id="@+id/reshus"
+                style="@style/SpnDefault"
+                android:layout_weight="1"
+                android:layout_marginStart="20dp"/>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editText7"
+            style="@style/EdtBorderGray"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/editText8"
+            style="@style/EdtBorderGray"
+            android:hint="Retype Password"
+            android:inputType="textPassword" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                style="@style/RbtDefault"
+                android:text="Personal" />
+
+            <RadioButton
+                android:id="@+id/radioButtons2"
+                style="@style/RbtDefault"
+                android:text="Organization" />
+        </RadioGroup>
+
+        <Spinner
+            android:id="@+id/job"
+            style="@style/SpnDefault" />
+
+        <EditText
+            android:id="@+id/jobs"
+            style="@style/EdtBorderGray"
+            android:hint="Home Address" />
+
+        <EditText
+            android:id="@+id/editText10"
+            style="@style/EdtBorderGray"
+            android:drawableEnd="@mipmap/ic_blood_needed_location"
+            android:hint="Default Location" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@drawable/ckb_default"
+            android:paddingStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/separator"
+            android:text="Agree with Terms and Conditions" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="bottom|end">
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:onClick="onClickRegisterButton"
+                style="@style/BtnBorderBlue"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

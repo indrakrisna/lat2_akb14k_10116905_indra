@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightBlue"
+    android:padding="30dp"
+    tools:context=".VerifyAccount">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verify your account"
+        android:layout_marginBottom="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:layout_above="@+id/greeting"
+        style="@style/TxtBigWhite"
+        />
+
+    <TextView
+        android:id="@+id/greeting"
+        style="@style/TxtMediumWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText2"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="60dp"
+        android:paddingStart="40dp"
+        android:paddingEnd="40dp"
+        android:text="We have send verification code to your email"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/EdtBorderWhite"
+        android:textAlignment="center"
+        android:layout_above="@+id/button4"
+        android:hint="Enter verification code here.."
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/button4"
+        style="@style/BtnBorderWhite"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginRight="0dp"
+        android:text="Send"
+        android:onClick="onClickSendVerifyToken"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/button4"
+        android:gravity="center"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/asa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Doesn't get the code ?"
+            android:textAlignment="center"
+            style="@style/TxtWhite"
+            android:layout_margin="20dp"/>
+        <Button
+            android:id="@+id/buttonaxa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resend"
+            android:padding="0dp"
+            android:layout_marginStart="-25dip"
+            android:textAllCaps="false"
+            style="@style/BtnWhite" />
+    </LinearLayout>
+
+</RelativeLayout>
